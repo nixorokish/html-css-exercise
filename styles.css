@@ -37,31 +37,39 @@ div.menuBar {
 }
 
 div.leftColumn {
+    display:inline-block;
     margin-left: 10px;
-    width: 50vw;
+    width: 40vw;
+    border: solid 0px blue;
 }
 
 div.rightColumn {
-    float: right
+    float:right;
     width: 50vw;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
-    margin-left: auto;
     margin-right: 0;
-    text-align: center;
-    padding: 30px;
-    box-sizing:border-box;
-    border: solid 2px black;
+    text-align: left;
+    border: solid 0px red;
 }
 
 img {
     width: 25vw;
-    margin-left: 5vw;
+    margin-left: 3vw;
 }
 
 h2 {
-    margin-left: 5vw;
-    margin-top: 5vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+h4 {
+    color: rgb(241, 145, 0);
+    background-color: rgb(255, 208, 164);
+}
+
+h5 {
+    color: rgb(241, 145, 0);
 }
 
 span {
@@ -81,4 +89,11 @@ div.page {
 
 div.extNetwork {
     margin-top: 10px;
+    padding: 30px;
+    border: solid 2px black;
+}
+
+img.tom {
+    width: 15vw;
+    border: solid 2px rgb(0, 0, 148);
 }
